@@ -31,27 +31,41 @@ Database Table
 <img width="1276" height="601" alt="Screenshot 2026-02-22 172942" src="https://github.com/user-attachments/assets/efd0e9c1-0196-441d-b03c-49a5eb726e1b" />
 
 Supabase Setup
+
 1. Create the table sql
+
 create table tasks (
+
   id uuid primary key default gen_random_uuid(),
+  
   user_id uuid references auth.users(id) on delete cascade,
+  
   title text not null,
+  
   is_done boolean default false,
+  
   created_at timestamptz default now()
+  
 );
+
 2. Enable Row Level Security sql
+ 
 alter table tasks enable row level security;
 
-create policy "insert own tasks" on tasks
+create policy "insert own tasks" on task
+
   for insert with check (auth.uid() = user_id);
 
 create policy "select own tasks" on tasks
+
   for select using (auth.uid() = user_id);
 
 create policy "update own tasks" on tasks
+
   for update using (auth.uid() = user_id);
 
 create policy "delete own tasks" on tasks
+
   for delete using (auth.uid() = user_id);
   
 3. Add your credentials in lib/main.dart
@@ -80,5 +94,6 @@ Screenshots
 
 
 Made with love as a final project for the Flutter Bootcamp — TechNation
+
 
 
