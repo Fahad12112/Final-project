@@ -22,6 +22,7 @@ Cloud Storage — All data saved in real-time with Supabase
 
 
 Project Structure
+
 <img width="452" height="611" alt="Screenshot 2026-02-22 172724" src="https://github.com/user-attachments/assets/4c5e5891-397f-4b50-89d9-3123b3e6124c" />
 
 
@@ -69,6 +70,7 @@ Dart
 
 
 Screenshots
+
 <img width="989" height="1566" alt="Screenshot 2026-02-22 172144" src="https://github.com/user-attachments/assets/1b0c9eb3-51f1-4167-86aa-09a022e6e169" />
 <img width="997" height="1650" alt="Screenshot 2026-02-22 172244" src="https://github.com/user-attachments/assets/9b4d500a-ebfb-47e3-a34c-40bf32dae3b8" />
 <img width="998" height="1649" alt="Screenshot 2026-02-22 172427" src="https://github.com/user-attachments/assets/e0b5fcef-fecf-490f-bf63-bcd396cfacd1" />
@@ -78,4 +80,5 @@ Screenshots
 
 
 Made with love as a final project for the Flutter Bootcamp — TechNation
+
 
