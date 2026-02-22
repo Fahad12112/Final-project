@@ -74,19 +74,18 @@ darturl: 'YOUR_SUPABASE_URL',
 
 anonKey: 'YOUR_SUPABASE_ANON_KEY',
 
+
 Getting Started
 
 bashflutter pub get
 
 flutter run
 
+
 Built With
 
-
-Flutter
-
-Supabase
-
+Flutter,
+Supabase,
 Dart
 
 
@@ -101,6 +100,7 @@ Screenshots
 
 
 Made with love as a final project for the Flutter Bootcamp — TechNation
+
 
 
 
