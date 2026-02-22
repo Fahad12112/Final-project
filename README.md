@@ -9,10 +9,15 @@ Task Manager helps you stay organized by letting you add, complete, and delete t
 Features
 
 Authentication — Sign up and log in with email & password
+
 Add Tasks — Quickly add tasks with a title
+
 Complete Tasks — Check off tasks when you're done
+
 Delete Tasks — Remove tasks you no longer need
+
 Profile & Stats — See how many tasks you've completed
+
 Cloud Storage — All data saved in real-time with Supabase
 
 
@@ -73,3 +78,4 @@ Screenshots
 
 
 Made with love as a final project for the Flutter Bootcamp — TechNation
+
