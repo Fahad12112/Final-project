@@ -69,17 +69,24 @@ create policy "delete own tasks" on tasks
   for delete using (auth.uid() = user_id);
   
 3. Add your credentials in lib/main.dart
+   
 darturl: 'YOUR_SUPABASE_URL',
+
 anonKey: 'YOUR_SUPABASE_ANON_KEY',
 
 Getting Started
+
 bashflutter pub get
+
 flutter run
 
 Built With
 
+
 Flutter
+
 Supabase
+
 Dart
 
 
@@ -94,6 +101,7 @@ Screenshots
 
 
 Made with love as a final project for the Flutter Bootcamp — TechNation
+
 
 
 
