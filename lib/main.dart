@@ -8,8 +8,8 @@ void main() async {
 
   // Connect to Supabase
   await Supabase.initialize(
-    url: 'https://knhhppuvicepvsdcaypw.supabase.co',
-    anonKey: 'sb_publishable_54uUOfbyJAoyr6K9j0eWXQ_uPKIb79T',
+    url: 'https://vtoddcjolvxpghkauxwq.supabase.co',
+    anonKey: 'sb_publishable_zbTW8xPPWVGtJKa75N1vaw_rxZ8g_Z5',
   );
 
   runApp(const MyApp());
